@@ -1,6 +1,6 @@
 fn main() {
-    let n = 10;
-    println!("The {}th Fibonacci number is {}", n, fib(n));
+    const N: i32 = 10;
+    println!("The {}th Fibonacci number is {}", N, fib(N));
 }
 
 fn fib(n: i32) -> i32 {
